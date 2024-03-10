@@ -1,5 +1,16 @@
 
 from modules import server_management, requests
+import configparser
+
+config = configparser.ConfigParser()
+config.read('config.ini')
+if config['API']['key'] == '':
+    print("You need to set the API key in the config.ini file.")
+    exit()
+elif config['Panel']['url'] == '':
+    print("You need to set the panel url in the config.ini file.")
+    exit()
+
 
 def main():
 
