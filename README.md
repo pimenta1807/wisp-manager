@@ -1,57 +1,19 @@
-# Server Management Tool
+# Wisp API manager
 
-This is a command-line tool for managing servers. It allows you to list servers by node, rebuild server containers by node, shutdown servers by node, list all servers, rebuild all server containers, and shutdown all servers.
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+This is a command-line tool for managing servers on WISP. It allows you to list, rebuild containers or shutdown servers by node. You can also list all servers, rebuild all server containers or shutdown all servers.
 
 ### Prerequisites
-
 This project requires Python 3 and the `requests` library.
 
 ### Installing
-
 To install the dependencies, run the following command:
-
-```sh
-pip install requests
-```
-
-Determining workspace structure
-
-Deciding which workspace information to collect
-
-Gathering workspace info
-
-Based on the provided code and project structure, here's a basic README for your project:
-
-```markdown
-# Server Management Tool
-
-This is a command-line tool for managing servers. It allows you to list servers by node, rebuild server containers by node, shutdown servers by node, list all servers, rebuild all server containers, and shutdown all servers.
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-### Prerequisites
-
-This project requires Python 3 and the `requests` library.
-
-### Installing
-
-To install the dependencies, run the following command:
-
 ```sh
 pip install requests
 ```
 
 ## Running the Project
-
 To run the project, navigate to the project directory, edit the config.ini file with your API key and panel url.
 Then run the following command:
-
 ```sh
 python main.py
 ```
